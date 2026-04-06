@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy Analyzer</title>
+    <style>
+        body { 
+            width: 350px; 
+            padding: 15px; 
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #1f2937;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .stat-label {
+            font-size: 11px;
+            color: #6b7280;
+            margin-top: 2px;
+        }
+        .current-site {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+        .site-url {
+            font-size: 12px;
+            color: #1f2937;
+            word-break: break-all;
+            margin-bottom: 8px;
+        }
+        .analysis-result {
+            font-size: 11px;
+            color: #6b7280;
+            margin-bottom: 4px;
+        }
+        .risk-high { color: #dc2626; font-weight: bold; }
+        .risk-medium { color: #ea580c; font-weight: bold; }
+        .risk-low { color: #059669; font-weight: bold; }
+        .risk-unknown { color: #6b7280; font-weight: bold; }
+        button { 
+            width: 100%; 
+            padding: 10px; 
+            margin: 5px 0; 
+            cursor: pointer;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 12px;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+        button:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #1f2937;
+        }
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+        }
+        .tab {
+            flex: 1;
+            padding: 8px;
+            background: #e5e7eb;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+        .tab.active {
+            background: #3b82f6;
+            color: white;
+        }
+        .tab-content {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        .site-item {
+            background: #f8f9fa;
+            padding: 8px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+        .site-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+        .history-list {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .rag-option {
+            background: #f0f9ff;
+            padding: 8px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            border: 1px solid #0ea5e9;
+        }
+        .rag-option label {
+            display: flex;
+            align-items: center;
+            font-size: 12px;
+            color: #1f2937;
+            cursor: pointer;
+        }
+        .rag-option input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        .rag-badge {
+            background: #0ea5e9;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🔍 Privacy Analyzer</h2>
+        
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('current')">Current</button>
+            <button class="tab" onclick="showTab('stats')">Statistics</button>
+            <button class="tab" onclick="showTab('history')">History</button>
+        </div>
+
+        <div id="current-tab" class="tab-content">
+            <div class="current-site">
+                <div class="site-url" id="current-url">Loading...</div>
+                <div id="current-analysis"></div>
+            </div>
+            
+            <button onclick="analyzeCurrentSite()" id="analyze-btn">
+                Analyze Current Site
+            </button>
+            
+            <button onclick="viewGraph()">
+                View Data Graph
+            </button>
+            
+            <div style="margin-top: 10px; padding: 10px; background: #e9ecef; border-radius: 4px; font-size: 11px; border: 1px solid #dee2e6;">
+                <strong>How Risk is Calculated:</strong><br>
+                • <strong>LOW (0-30):</strong> Basic data collection<br>
+                • <strong>MEDIUM (31-60):</strong> Moderate tracking<br>
+                • <strong>HIGH (61-100):</strong> Extensive data collection<br>
+                <br>
+                <strong>Factors:</strong> Data types, third parties, purposes, policy clarity
+            </div>
+        </div>
+
+        <div id="stats-tab" class="tab-content" style="display: none;">
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-sites">0</div>
+                    <div class="stat-label">Total Sites</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="high-risk">0</div>
+                    <div class="stat-label">High Risk</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="medium-risk">0</div>
+                    <div class="stat-label">Medium Risk</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="low-risk">0</div>
+                    <div class="stat-label">Low Risk</div>
+                </div>
+            </div>
+            
+            <button onclick="loadStats()">
+                🔄 Refresh Statistics
+            </button>
+        </div>
+
+        <div id="history-tab" class="tab-content" style="display: none;">
+            <div class="history-list" id="history-list">
+                <div class="loading">Loading history...</div>
+            </div>
+            
+            <button onclick="loadHistory()">
+                🔄 Refresh History
+            </button>
+        </div>
+    </div>
+
+    <script src="popup-simple.js"></script>
+</body>
+</html>

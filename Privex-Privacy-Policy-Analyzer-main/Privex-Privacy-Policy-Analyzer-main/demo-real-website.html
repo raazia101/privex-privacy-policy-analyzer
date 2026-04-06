@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store - Privacy Policy Analyzer Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+        
+        header {
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007cba;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #666;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #007cba;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #007cba;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .btn:hover {
+            background: #005a8b;
+        }
+        
+        .features {
+            padding: 4rem 0;
+            background: white;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .feature-card {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Cookie Banner Styles */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            z-index: 1000;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .cookie-banner.show {
+            transform: translateY(0);
+        }
+        
+        .cookie-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .cookie-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .cookie-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .cookie-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .cookie-accept {
+            background: #27ae60;
+            color: white;
+        }
+        
+        .cookie-decline {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .cookie-settings {
+            background: #f39c12;
+            color: white;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 3rem 0;
+            margin-top: 4rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section a {
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: #3498db;
+        }
+        
+        .demo-notice {
+            background: #e8f4fd;
+            border: 1px solid #bee5eb;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .demo-notice strong {
+            color: #0c5460;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <strong>🍪 We Use Cookies</strong><br>
+                This website uses cookies to enhance your experience, analyze traffic, and personalize content. By continuing to use this site, you agree to our use of cookies and similar tracking technologies.
+            </div>
+            <div class="cookie-buttons">
+                <button class="cookie-btn cookie-accept" onclick="acceptCookies()">Accept All</button>
+                <button class="cookie-btn cookie-decline" onclick="declineCookies()">Decline</button>
+                <button class="cookie-btn cookie-settings" onclick="showSettings()">Settings</button>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ShopSmart</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to ShopSmart</h1>
+            <p>Your trusted online shopping destination with the best prices and secure transactions</p>
+            <a href="#products" class="btn">Start Shopping</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="demo-notice">
+                <strong>🔍 Privacy Policy Analyzer Demo:</strong> This is a realistic e-commerce website designed to test the Chrome extension. 
+                The extension should automatically detect the cookie banner and analyze the privacy policy below.
+            </div>
+            
+            <h2 style="text-align: center; margin-bottom: 2rem;">Why Choose ShopSmart?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Secure Shopping</h3>
+                    <p>Bank-level encryption and fraud protection keep your data safe</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Free shipping on orders over $50 with 2-day delivery guarantee</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Best Prices</h3>
+                    <p>Price match guarantee and exclusive member discounts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section style="background: white; padding: 4rem 0;">
+        <div class="container">
+            <h2 id="privacy">Privacy Policy</h2>
+            <p style="color: #666; margin-bottom: 2rem;">Last updated: January 15, 2024</p>
+            
+            <div style="background: #f8f9fa; padding: 2rem; border-radius: 8px; margin-top: 2rem;">
+                <h3>Information We Collect</h3>
+                <p>We collect personal information including:</p>
+                <ul style="margin: 1rem 0; padding-left: 2rem;">
+                    <li>Full name, email address, phone number</li>
+                    <li>Billing and shipping addresses</li>
+                    <li>Payment information (credit card numbers, PayPal accounts)</li>
+                    <li>IP address, browser type, device information</li>
+                    <li>Location data and browsing history</li>
+                    <li>Purchase history and shopping preferences</li>
+                </ul>
+
+                <h3>How We Use Your Information</h3>
+                <p>Your personal data is used for:</p>
+                <ul style="margin: 1rem 0; padding-left: 2rem;">
+                    <li>Processing orders and payments</li>
+                    <li>Personalized product recommendations</li>
+                    <li>Targeted advertising and marketing campaigns</li>
+                    <li>Fraud detection and security purposes</li>
+                    <li>Analytics and website improvement</li>
+                    <li>Customer support and communication</li>
+                </ul>
+
+                <h3>Third Party Sharing</h3>
+                <p>We share your information with:</p>
+                <ul style="margin: 1rem 0; padding-left: 2rem;">
+                    <li><strong>Google Analytics:</strong> For website traffic analysis</li>
+                    <li><strong>Facebook Ads:</strong> For targeted advertising</li>
+                    <li><strong>Amazon Web Services:</strong> For cloud storage</li>
+                    <li><strong>Stripe:</strong> For payment processing</li>
+                    <li><strong>Mailchimp:</strong> For email marketing</li>
+                    <li><strong>Salesforce:</strong> For customer relationship management</li>
+                </ul>
+
+                <h3>Data Retention</h3>
+                <p>We retain your personal data for 7 years, except for financial records which are kept for 10 years as required by law.</p>
+
+                <h3>Your Rights</h3>
+                <p>You have the right to access, correct, delete, or export your personal data at any time through your account settings.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About ShopSmart</h3>
+                    <p>Your trusted partner for online shopping since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#help">Help Center</a></li>
+                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="#shipping">Shipping Info</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Show cookie banner after 2 seconds
+        setTimeout(() => {
+            document.getElementById('cookieBanner').classList.add('show');
+            console.log('Cookie banner displayed - Extension should detect this');
+        }, 2000);
+
+        function acceptCookies() {
+            document.getElementById('cookieBanner').classList.remove('show');
+            console.log('Cookies accepted - Extension should track this action');
+        }
+
+        function declineCookies() {
+            document.getElementById('cookieBanner').classList.remove('show');
+            console.log('Cookies declined - Extension should track this action');
+        }
+
+        function showSettings() {
+            alert('Cookie settings would open here in a real implementation');
+        }
+
+        console.log('Demo website loaded - Privacy Policy Analyzer should be monitoring this page');
+    </script>
+</body>
+</html>
