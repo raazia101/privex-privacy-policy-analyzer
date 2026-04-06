@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy Analyzer</title>
+    <style>
+        body { 
+            width: 350px; 
+            padding: 15px; 
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #1f2937;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        .tabs {
+            display: flex;
+            margin-bottom: 15px;
+        }
+        .tab {
+            flex: 1;
+            padding: 8px 12px;
+            background: #e9ecef;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px 4px 0 0;
+            font-size: 12px;
+        }
+        .tab.active {
+            background: #007cba;
+            color: white;
+        }
+        .tab-content {
+            background: white;
+            border-radius: 4px;
+            padding: 15px;
+        }
+        .status-indicator {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        .status-safe { background: #10b981; }
+        .status-medium { background: #f59e0b; }
+        .status-high { background: #ef4444; }
+        .status-analyzing { background: #3b82f6; animation: pulse 1s infinite; }
+        .analysis-result {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 8px 0;
+            font-size: 12px;
+        }
+        .data-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .data-label {
+            font-weight: bold;
+            color: #666;
+        }
+        .data-value {
+            color: #333;
+        }
+        .risk-high { color: #dc2626; font-weight: bold; }
+        .risk-medium { color: #ea580c; font-weight: bold; }
+        .risk-low { color: #059669; font-weight: bold; }
+        .risk-unknown { color: #6b7280; font-weight: bold; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .stat-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 4px;
+            padding: 12px;
+            text-align: center;
+        }
+        .stat-value {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 4px;
+        }
+        .stat-label {
+            font-size: 11px;
+            color: #666;
+        }
+        .top-sites {
+            margin-top: 15px;
+        }
+        .site-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            margin-bottom: 6px;
+            font-size: 11px;
+        }
+        .site-name {
+            font-weight: bold;
+            color: #333;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .site-score {
+            font-weight: bold;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Privacy Policy Analyzer</h2>
+        
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('current')">Current</button>
+            <button class="tab" onclick="showTab('stats')">Statistics</button>
+        </div>
+
+        <div id="current-tab" class="tab-content">
+            <div class="analysis-result">
+                <div class="data-item">
+                    <span class="data-label">Current Site:</span>
+                    <span class="data-value" id="current-url">Loading...</span>
+                </div>
+                
+                <div class="data-item">
+                    <span class="data-label">Status:</span>
+                    <span class="data-value">
+                        <span class="status-indicator" id="status-indicator"></span>
+                        <span id="status-text">Initializing...</span>
+                    </span>
+                </div>
+                
+                <div id="analysis-details" style="display: none;">
+                    <!-- Analysis results will be inserted here -->
+                </div>
+            </div>
+        </div>
+
+        <div id="stats-tab" class="tab-content" style="display: none;">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-sites">0</div>
+                    <div class="stat-label">Total Sites</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="high-risk">0</div>
+                    <div class="stat-label">High Risk</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="medium-risk">0</div>
+                    <div class="stat-label">Medium Risk</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="avg-risk">0</div>
+                    <div class="stat-label">Avg Risk Score</div>
+                </div>
+            </div>
+            
+            <div class="top-sites">
+                <h3 style="font-size: 14px; margin-bottom: 10px;">Most Risky Sites</h3>
+                <div id="risky-sites"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="popup-automatic.js"></script>
+</body>
+</html>

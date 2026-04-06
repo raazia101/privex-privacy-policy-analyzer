@@ -1,0 +1,1528 @@
+2026-03-04 18:08:43,089 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 18:08:43,102 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 18:08:45,292 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 18:08:45,294 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 18:09:28,529 - privacy_analyzer - INFO - log_api_request:67 - API GET /api/dashboard - Status: 200
+2026-03-04 18:09:31,662 - privacy_analyzer - INFO - log_api_request:67 - API GET /api/export - Status: 200
+2026-03-04 18:09:50,234 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 18:09:50,237 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 18:14:31,420 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://example.com
+2026-03-04 18:14:31,913 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://example.com - Error: Failed to extract text from privacy policy
+2026-03-04 18:14:38,298 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://google.com
+2026-03-04 18:14:40,550 - privacy_analyzer - ERROR - analyze:194 - Unexpected error in analyze endpoint: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:14:40,551 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://google.com - Error: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:14:40,551 - privacy_analyzer - ERROR - log_api_request:65 - API POST /api/analyze - ERROR: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:04,315 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 18:15:05,372 - privacy_analyzer - ERROR - analyze:194 - Unexpected error in analyze endpoint: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:05,372 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://policies.google.com/privacy - Error: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:05,373 - privacy_analyzer - ERROR - log_api_request:65 - API POST /api/analyze - ERROR: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:27,789 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 18:15:28,846 - privacy_analyzer - ERROR - analyze:194 - Unexpected error in analyze endpoint: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:28,846 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://policies.google.com/privacy - Error: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:28,847 - privacy_analyzer - ERROR - log_api_request:65 - API POST /api/analyze - ERROR: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:38,299 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 18:15:38,301 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 18:15:39,933 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 18:15:39,936 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 18:15:48,449 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 18:15:49,467 - privacy_analyzer - ERROR - analyze:194 - Unexpected error in analyze endpoint: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:49,468 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://policies.google.com/privacy - Error: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:15:49,468 - privacy_analyzer - ERROR - log_api_request:65 - API POST /api/analyze - ERROR: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:16:00,701 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 18:16:01,692 - privacy_analyzer - ERROR - analyze:194 - Unexpected error in analyze endpoint: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:16:01,692 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://policies.google.com/privacy - Error: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:16:01,693 - privacy_analyzer - ERROR - log_api_request:65 - API POST /api/analyze - ERROR: 
+**********************************************************************
+  Resource [93mpunkt_tab[0m not found.
+  Please use the NLTK Downloader to obtain the resource:
+
+  [31m>>> import nltk
+  >>> nltk.download('punkt_tab')
+  [0m
+  For more information see: https://www.nltk.org/data.html
+
+  Attempted to load [93mtokenizers/punkt_tab/english/[0m
+
+  Searched in:
+    - 'C:\\Users\\JESNABINU/nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\share\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Local\\Programs\\Python\\Python313\\lib\\nltk_data'
+    - 'C:\\Users\\JESNABINU\\AppData\\Roaming\\nltk_data'
+    - 'C:\\nltk_data'
+    - 'D:\\nltk_data'
+    - 'E:\\nltk_data'
+**********************************************************************
+
+2026-03-04 18:16:36,679 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 18:16:43,240 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:16:43,241 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy - Risk: HIGH, Data points: 6, Duration: 6.56s
+2026-03-04 18:16:43,241 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:17:46,735 - privacy_analyzer - INFO - log_api_request:67 - API GET /api/dashboard - Status: 200
+2026-03-04 18:20:24,549 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&peek_pws=0&sxsrf=ANbL-n5U8Ifgrq9zvPrI7U6xk6WK6HmTmw:1772628623627
+2026-03-04 18:20:24,552 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#
+2026-03-04 18:20:25,031 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#
+2026-03-04 18:20:25,268 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:20:25,270 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:20:25,300 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:20:26,524 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#
+2026-03-04 18:20:26,524 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8# - Risk: LOW, Data points: 0, Duration: 1.97s
+2026-03-04 18:20:26,524 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:20:26,659 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&peek_pws=0&sxsrf=ANbL-n5U8Ifgrq9zvPrI7U6xk6WK6HmTmw:1772628623627
+2026-03-04 18:20:26,659 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&peek_pws=0&sxsrf=ANbL-n5U8Ifgrq9zvPrI7U6xk6WK6HmTmw:1772628623627 - Risk: LOW, Data points: 0, Duration: 2.11s
+2026-03-04 18:20:26,660 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:20:27,030 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#
+2026-03-04 18:20:27,031 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/search?q=linkedin+privacy+policy&oq=linked+privasy+&gs_lcrp=EgZjaHJvbWUqCQgBEAAYDRiABDIGCAAQRRg5MgkIARAAGA0YgAQyCQgCEAAYDRiABDIJCAMQABgNGIAEMgkIBBAAGA0YgAQyCQgFEAAYDRiABDIJCAYQABgNGIAEMgkIBxAAGA0YgAQyCQgIEAAYDRiABDIJCAkQABgNGIAE0gEINTExOGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8# - Risk: LOW, Data points: 0, Duration: 2.00s
+2026-03-04 18:20:27,031 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:20:27,877 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.linkedin.com/legal/privacy
+2026-03-04 18:20:33,824 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:20:33,825 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:20:33,827 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:20:33,828 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.56s
+2026-03-04 18:20:33,829 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.56s
+2026-03-04 18:20:33,829 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.53s
+2026-03-04 18:20:33,830 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:20:33,831 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:20:33,831 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:20:33,886 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.linkedin.com/legal/privacy
+2026-03-04 18:20:33,886 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 6.01s
+2026-03-04 18:20:33,887 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:21:09,254 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: file:///C:/Users/JESNABINU/Desktop/New%20folder/Privacy-Policy-Analyzer/test-extension.html#privacy-full
+2026-03-04 18:21:09,258 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for file:///C:/Users/JESNABINU/Desktop/New%20folder/Privacy-Policy-Analyzer/test-extension.html#privacy-full - Error: Failed to extract text from privacy policy
+2026-03-04 18:22:33,784 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:33,853 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/search?q=facebook+privacy+policy&oq=face&gs_lcrp=EgZjaHJvbWUqDQgBEAAYkQIYgAQYigUyEQgAEEUYORhDGLEDGIAEGIoFMg0IARAAGJECGIAEGIoFMhgIAhAuGEMYgwEYxwEYsQMY0QMYgAQYigUyDQgDEAAYkQIYgAQYigUyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgwIBhAAGEMYgAQYigUyBggHEAUYQNIBCDIxODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#
+2026-03-04 18:22:34,135 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:34,848 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:34,852 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:34,853 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:35,577 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.google.com/search?q=facebook+privacy+policy&oq=face&gs_lcrp=EgZjaHJvbWUqDQgBEAAYkQIYgAQYigUyEQgAEEUYORhDGLEDGIAEGIoFMg0IARAAGJECGIAEGIoFMhgIAhAuGEMYgwEYxwEYsQMY0QMYgAQYigUyDQgDEAAYkQIYgAQYigUyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgwIBhAAGEMYgAQYigUyBggHEAUYQNIBCDIxODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#
+2026-03-04 18:22:35,577 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/search?q=facebook+privacy+policy&oq=face&gs_lcrp=EgZjaHJvbWUqDQgBEAAYkQIYgAQYigUyEQgAEEUYORhDGLEDGIAEGIoFMg0IARAAGJECGIAEGIoFMhgIAhAuGEMYgwEYxwEYsQMY0QMYgAQYigUyDQgDEAAYkQIYgAQYigUyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgwIBhAAGEMYgAQYigUyBggHEAUYQNIBCDIxODVqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8# - Risk: LOW, Data points: 0, Duration: 1.72s
+2026-03-04 18:22:35,577 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:35,580 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:41,436 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:41,437 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.65s
+2026-03-04 18:22:41,437 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:41,443 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:42,347 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:42,347 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.21s
+2026-03-04 18:22:42,348 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:42,352 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:43,190 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:43,193 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.34s
+2026-03-04 18:22:43,193 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:43,195 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:43,384 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:43,385 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.53s
+2026-03-04 18:22:43,385 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:43,388 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:43,482 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:43,483 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.90s
+2026-03-04 18:22:43,483 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:43,486 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:46,950 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:46,951 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 12.10s
+2026-03-04 18:22:46,951 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:46,958 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:48,680 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:48,680 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.24s
+2026-03-04 18:22:48,680 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:48,684 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:49,983 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:49,983 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.63s
+2026-03-04 18:22:49,984 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:49,987 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:51,164 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:51,165 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:51,165 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.68s
+2026-03-04 18:22:51,166 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.78s
+2026-03-04 18:22:51,167 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:51,167 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:51,177 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:51,178 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:52,520 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:52,521 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.33s
+2026-03-04 18:22:52,521 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:52,524 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:54,595 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:54,596 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.64s
+2026-03-04 18:22:54,596 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:54,599 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:56,254 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:56,255 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.57s
+2026-03-04 18:22:56,256 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:56,261 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:22:58,036 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:22:58,037 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.05s
+2026-03-04 18:22:58,037 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:22:58,044 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:00,666 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:00,666 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:00,666 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.49s
+2026-03-04 18:23:00,667 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.49s
+2026-03-04 18:23:00,668 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:00,668 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:00,678 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:00,680 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:01,962 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:01,962 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.36s
+2026-03-04 18:23:01,963 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:01,967 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:03,147 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:03,148 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 6.89s
+2026-03-04 18:23:03,149 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:03,154 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:03,577 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:03,577 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 11.05s
+2026-03-04 18:23:03,578 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:03,580 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:05,176 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:05,176 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.13s
+2026-03-04 18:23:05,176 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:05,181 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:08,286 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:08,287 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.61s
+2026-03-04 18:23:08,287 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:08,293 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:09,125 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:09,126 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.45s
+2026-03-04 18:23:09,127 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:09,132 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:10,430 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:10,432 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.28s
+2026-03-04 18:23:10,432 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:10,435 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:10,861 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:10,861 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.28s
+2026-03-04 18:23:10,861 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:10,864 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:12,380 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:12,381 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.20s
+2026-03-04 18:23:12,381 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:12,385 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:14,631 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:14,632 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 12.67s
+2026-03-04 18:23:14,632 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:14,635 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:16,331 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:16,332 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.20s
+2026-03-04 18:23:16,333 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:16,336 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:23:18,457 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:18,458 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.02s
+2026-03-04 18:23:18,459 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:18,474 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer
+2026-03-04 18:23:18,913 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:18,914 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.05s
+2026-03-04 18:23:18,914 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:18,917 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 18:23:19,639 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:19,640 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.25s
+2026-03-04 18:23:19,641 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:19,643 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 18:23:20,189 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:20,190 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 11.90s
+2026-03-04 18:23:20,191 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:20,196 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 18:23:21,761 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:21,761 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.13s
+2026-03-04 18:23:21,761 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:24,727 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:24,728 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy/policy/?entry_point=facebook_page_footer - Risk: LOW, Data points: 0, Duration: 6.25s
+2026-03-04 18:23:24,728 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:25,127 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:25,128 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 6.21s
+2026-03-04 18:23:25,128 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:25,748 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:23:25,749 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.41s
+2026-03-04 18:23:25,750 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:25,831 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 18:23:25,832 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 6.19s
+2026-03-04 18:23:25,832 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:23:25,863 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 18:23:25,864 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 5.67s
+2026-03-04 18:23:25,864 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:27:12,211 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 18:27:13,058 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 18:27:13,059 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 0.85s
+2026-03-04 18:27:13,060 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:27:13,567 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.linkedin.com/legal/privacy
+2026-03-04 18:27:14,623 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.linkedin.com/legal/privacy
+2026-03-04 18:27:14,624 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 1.06s
+2026-03-04 18:27:14,624 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:27:19,545 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: file:///C:/Users/JESNABINU/Desktop/New%20folder/Privacy-Policy-Analyzer/test-extension.html#privacy-full
+2026-03-04 18:27:19,547 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for file:///C:/Users/JESNABINU/Desktop/New%20folder/Privacy-Policy-Analyzer/test-extension.html#privacy-full - Error: Failed to extract text from privacy policy
+2026-03-04 18:29:57,589 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:29:57,736 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:30:04,792 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:30:04,794 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:30:06,739 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:06,739 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.15s
+2026-03-04 18:30:06,740 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:06,761 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:30:06,762 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:30:09,759 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:30:12,317 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:12,317 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 14.58s
+2026-03-04 18:30:12,317 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:12,320 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:30:12,719 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:12,719 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 7.93s
+2026-03-04 18:30:12,720 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:12,860 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:12,861 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 8.07s
+2026-03-04 18:30:12,861 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:13,345 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:13,346 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:13,346 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 6.58s
+2026-03-04 18:30:13,346 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 6.59s
+2026-03-04 18:30:13,347 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:13,347 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:17,921 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:17,921 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 8.16s
+2026-03-04 18:30:17,921 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:23,491 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:23,492 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 11.17s
+2026-03-04 18:30:23,492 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:30:43,226 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 18:30:49,855 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:30:49,856 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy - Risk: HIGH, Data points: 6, Duration: 6.63s
+2026-03-04 18:30:49,856 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:34,585 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy?hl=en-IN&fg=1
+2026-03-04 18:32:35,002 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:32:35,011 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:32:35,380 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:32:35,452 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:32:35,513 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:32:41,418 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:41,419 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy?hl=en-IN&fg=1 - Risk: HIGH, Data points: 6, Duration: 6.83s
+2026-03-04 18:32:41,419 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:41,422 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/
+2026-03-04 18:32:43,853 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:43,853 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.85s
+2026-03-04 18:32:43,854 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:43,856 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/
+2026-03-04 18:32:44,072 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:44,072 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:44,072 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.69s
+2026-03-04 18:32:44,073 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.62s
+2026-03-04 18:32:44,073 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:44,073 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:44,076 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/
+2026-03-04 18:32:44,077 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/
+2026-03-04 18:32:44,177 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:44,177 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.66s
+2026-03-04 18:32:44,178 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:44,181 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/
+2026-03-04 18:32:46,972 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:46,973 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 11.96s
+2026-03-04 18:32:46,973 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:46,975 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:32:47,782 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:47,782 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/ - Risk: LOW, Data points: 1, Duration: 6.36s
+2026-03-04 18:32:47,783 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:47,789 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 18:32:49,968 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:49,969 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/ - Risk: LOW, Data points: 1, Duration: 6.11s
+2026-03-04 18:32:49,969 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:49,973 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/
+2026-03-04 18:32:50,430 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:50,430 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:50,430 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/ - Risk: LOW, Data points: 1, Duration: 6.35s
+2026-03-04 18:32:50,431 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/ - Risk: LOW, Data points: 1, Duration: 6.35s
+2026-03-04 18:32:50,431 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:50,431 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:50,437 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 18:32:52,618 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:52,619 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/ - Risk: LOW, Data points: 1, Duration: 8.44s
+2026-03-04 18:32:52,619 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:53,912 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:32:53,913 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:32:55,289 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:55,289 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 7.50s
+2026-03-04 18:32:55,290 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:55,913 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:32:56,376 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:56,376 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/intl/en_mt/howyoutubeworks/privacy/ - Risk: LOW, Data points: 1, Duration: 6.40s
+2026-03-04 18:32:56,377 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:56,381 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:32:58,028 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:58,029 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 7.59s
+2026-03-04 18:32:58,029 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:58,183 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:32:58,183 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 11.21s
+2026-03-04 18:32:58,184 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:32:58,912 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:32:58,913 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 18:33:00,816 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:33:00,818 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 6.90s
+2026-03-04 18:33:00,819 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:33:02,077 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:33:02,077 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 6.16s
+2026-03-04 18:33:02,077 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:33:02,516 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:33:02,517 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 6.14s
+2026-03-04 18:33:02,518 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:33:03,778 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:33:03,779 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 9.87s
+2026-03-04 18:33:03,780 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:33:05,160 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:33:05,160 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 6.25s
+2026-03-04 18:33:05,160 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:33:09,353 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:33:09,354 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 10.44s
+2026-03-04 18:33:09,354 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:38:36,444 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 18:38:36,457 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 18:38:37,271 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 18:38:37,272 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 0.81s
+2026-03-04 18:38:37,272 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:38:37,498 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.linkedin.com/legal/privacy
+2026-03-04 18:38:43,778 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 18:38:43,778 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 7.33s
+2026-03-04 18:38:43,779 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 18:38:43,852 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.linkedin.com/legal/privacy
+2026-03-04 18:38:43,852 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 6.35s
+2026-03-04 18:38:43,852 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:08:58,533 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 19:08:58,533 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 19:08:58,540 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 19:08:58,540 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 19:08:58,612 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 19:09:05,443 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:09:05,444 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy - Risk: HIGH, Data points: 6, Duration: 6.83s
+2026-03-04 19:09:05,445 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:09:40,511 - privacy_analyzer - INFO - log_api_request:67 - API GET /api/dashboard - Status: 200
+2026-03-04 19:12:11,530 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 19:12:11,615 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 19:12:12,576 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.linkedin.com/legal/privacy
+2026-03-04 19:12:13,227 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 19:12:13,228 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.70s
+2026-03-04 19:12:13,228 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:12:14,927 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.linkedin.com/legal/privacy
+2026-03-04 19:12:14,929 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 2.35s
+2026-03-04 19:12:14,929 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:12:21,217 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:12:21,218 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 9.60s
+2026-03-04 19:12:21,218 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:20:46,660 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://example.com
+2026-03-04 19:20:47,228 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://example.com - Error: Failed to extract text from privacy policy
+2026-03-04 19:23:29,839 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 19:23:29,954 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 19:23:30,731 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.linkedin.com/legal/privacy
+2026-03-04 19:23:31,940 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 19:23:31,941 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 2.10s
+2026-03-04 19:23:31,942 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:32,988 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.linkedin.com/legal/privacy
+2026-03-04 19:23:32,989 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 2.26s
+2026-03-04 19:23:32,990 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:35,447 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 19:23:35,492 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 19:23:36,468 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 19:23:36,777 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy?hl=en-IN&fg=1
+2026-03-04 19:23:36,883 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy?hl=en-IN&fg=1
+2026-03-04 19:23:39,759 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:39,760 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 9.81s
+2026-03-04 19:23:39,761 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:39,769 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 19:23:44,201 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:44,202 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy?hl=en-IN&fg=1 - Risk: HIGH, Data points: 6, Duration: 7.32s
+2026-03-04 19:23:44,202 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:44,208 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy?hl=en-IN&fg=1
+2026-03-04 19:23:44,522 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:44,522 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:44,522 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.08s
+2026-03-04 19:23:44,523 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.03s
+2026-03-04 19:23:44,523 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:44,524 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:44,532 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 19:23:44,533 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy?hl=en-IN&fg=1
+2026-03-04 19:23:44,758 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:44,759 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.29s
+2026-03-04 19:23:44,760 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:44,767 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 19:23:45,274 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:45,275 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy?hl=en-IN&fg=1 - Risk: HIGH, Data points: 6, Duration: 8.50s
+2026-03-04 19:23:45,275 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:50,742 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:50,743 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 10.97s
+2026-03-04 19:23:50,744 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:51,010 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:51,010 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy?hl=en-IN&fg=1 - Risk: HIGH, Data points: 6, Duration: 6.80s
+2026-03-04 19:23:51,011 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:51,773 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:51,776 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy?hl=en-IN&fg=1 - Risk: HIGH, Data points: 6, Duration: 7.24s
+2026-03-04 19:23:51,777 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:54,945 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:54,946 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 10.18s
+2026-03-04 19:23:54,946 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:23:56,308 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:23:56,308 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 11.78s
+2026-03-04 19:23:56,309 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:14,936 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 19:45:15,077 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 19:45:15,137 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 19:45:16,200 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.linkedin.com/legal/privacy
+2026-03-04 19:45:16,828 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 19:45:16,829 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.75s
+2026-03-04 19:45:16,830 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:18,266 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.linkedin.com/legal/privacy
+2026-03-04 19:45:18,267 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 2.07s
+2026-03-04 19:45:18,268 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:24,756 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:24,757 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 9.62s
+2026-03-04 19:45:24,758 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:30,305 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:30,306 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 15.37s
+2026-03-04 19:45:30,306 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:30,903 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: file:///C:/Users/JESNABINU/Desktop/New%20folder/Privacy-Policy-Analyzer/test-extension.html#privacy-full
+2026-03-04 19:45:30,905 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for file:///C:/Users/JESNABINU/Desktop/New%20folder/Privacy-Policy-Analyzer/test-extension.html#privacy-full - Error: Failed to extract text from privacy policy
+2026-03-04 19:45:46,166 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:45:47,030 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 19:45:47,035 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 19:45:48,991 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 19:45:49,023 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 19:45:51,972 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 19:45:51,975 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-04 19:45:53,860 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:53,860 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 7.69s
+2026-03-04 19:45:53,861 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:54,573 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:54,574 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 7.54s
+2026-03-04 19:45:54,576 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:54,721 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:54,722 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 7.69s
+2026-03-04 19:45:54,723 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:56,620 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:56,620 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:56,621 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 7.60s
+2026-03-04 19:45:56,621 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 7.63s
+2026-03-04 19:45:56,622 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:56,622 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:59,320 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:59,321 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 7.35s
+2026-03-04 19:45:59,322 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:45:59,413 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:45:59,414 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 6, Duration: 7.44s
+2026-03-04 19:45:59,414 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:48:40,104 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://demo-real-website.html
+2026-03-04 19:48:40,148 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://demo-real-website.html - Error: Failed to extract text from privacy policy
+2026-03-04 19:48:51,436 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 19:48:58,078 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:48:58,079 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy - Risk: HIGH, Data points: 6, Duration: 6.64s
+2026-03-04 19:48:58,080 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:49:24,885 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 19:49:25,100 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 19:49:26,769 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 19:49:26,769 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.88s
+2026-03-04 19:49:26,770 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:49:34,707 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:49:34,708 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 9.61s
+2026-03-04 19:49:34,709 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:50:24,265 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:50:31,148 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:50:31,149 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.88s
+2026-03-04 19:50:31,151 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:50:33,215 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:50:39,946 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:50:39,946 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.73s
+2026-03-04 19:50:39,947 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:51:32,968 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 19:51:32,968 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 19:51:32,980 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 19:51:32,981 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 19:52:22,391 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 19:52:22,494 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 19:52:24,145 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 19:52:24,146 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.75s
+2026-03-04 19:52:24,147 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:52:31,951 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:52:31,952 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 9.46s
+2026-03-04 19:52:31,953 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:52:51,848 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:52:58,742 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:52:58,743 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.90s
+2026-03-04 19:52:58,743 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:54:28,471 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 19:54:28,520 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 19:54:29,616 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 19:54:29,617 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.15s
+2026-03-04 19:54:29,617 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:54:36,299 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:54:36,299 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 7.78s
+2026-03-04 19:54:36,300 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:54:49,379 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:54:56,099 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:54:56,100 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.72s
+2026-03-04 19:54:56,101 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:55:05,416 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:55:12,172 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:55:12,173 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.76s
+2026-03-04 19:55:12,174 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:55:14,663 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:55:21,573 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:55:21,574 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.91s
+2026-03-04 19:55:21,575 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:55:43,661 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 19:55:50,493 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:55:50,494 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.83s
+2026-03-04 19:55:50,495 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:57:55,273 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://demo-real-website.html
+2026-03-04 19:57:55,323 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for https://demo-real-website.html - Error: Failed to extract text from privacy policy
+2026-03-04 19:58:24,998 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy
+2026-03-04 19:58:31,870 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:58:31,871 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy - Risk: HIGH, Data points: 6, Duration: 6.87s
+2026-03-04 19:58:31,871 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:59:04,356 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 19:59:04,423 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 19:59:06,090 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 19:59:06,091 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.74s
+2026-03-04 19:59:06,092 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 19:59:13,849 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 19:59:13,850 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 9.43s
+2026-03-04 19:59:13,850 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:02:14,742 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 20:02:14,770 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 20:02:16,358 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 20:02:16,359 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.62s
+2026-03-04 20:02:16,360 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:02:21,770 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 20:02:23,670 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:02:23,671 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 8.90s
+2026-03-04 20:02:23,671 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:02:29,227 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:02:29,229 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 7.46s
+2026-03-04 20:02:29,230 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:02:35,779 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 20:02:42,743 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:02:42,744 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.97s
+2026-03-04 20:02:42,745 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:06:42,412 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.facebook.com/privacy
+2026-03-04 20:06:42,581 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-04 20:06:44,405 - privacy_analyzer - INFO - analyze:176 - Analysis saved to database for https://www.facebook.com/privacy
+2026-03-04 20:06:44,406 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 1.99s
+2026-03-04 20:06:44,407 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:06:52,350 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:06:52,351 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 6, Duration: 9.77s
+2026-03-04 20:06:52,352 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:06:59,079 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.vogue.in/
+2026-03-04 20:07:06,057 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:07:06,058 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/ - Risk: MEDIUM, Data points: 1, Duration: 6.98s
+2026-03-04 20:07:06,059 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:08:39,382 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://policies.google.com/privacy?hl=en-IN&fg=1
+2026-03-04 20:08:39,952 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 20:08:39,954 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 20:08:43,127 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.wikipedia.org/
+2026-03-04 20:08:46,871 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:08:46,872 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy?hl=en-IN&fg=1 - Risk: HIGH, Data points: 6, Duration: 7.49s
+2026-03-04 20:08:46,873 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:08:50,658 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:08:50,659 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.wikipedia.org/ - Risk: LOW, Data points: 0, Duration: 7.53s
+2026-03-04 20:08:50,660 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:08:51,201 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:08:51,203 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 11.25s
+2026-03-04 20:08:51,203 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:08:52,325 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:08:52,326 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 12.37s
+2026-03-04 20:08:52,326 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:09:02,084 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 20:09:02,085 - privacy_analyzer - WARNING - <module>:16 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 20:09:02,088 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 20:09:02,088 - privacy_analyzer - INFO - <module>:49 - RAG analyzer not available - missing dependencies
+2026-03-04 20:10:51,207 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 20:10:51,795 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 20:10:54,562 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.hindustantimes.com/
+2026-03-04 20:10:55,523 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.hindustantimes.com/privacy-policy
+2026-03-04 20:11:00,245 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:11:00,247 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 9.04s
+2026-03-04 20:11:00,248 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:11:00,943 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.hindustantimes.com/
+2026-03-04 20:11:01,612 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:11:01,613 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.hindustantimes.com/ - Risk: MEDIUM, Data points: 2, Duration: 7.05s
+2026-03-04 20:11:01,613 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:11:02,193 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:11:02,193 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.hindustantimes.com/privacy-policy - Risk: HIGH, Data points: 4, Duration: 6.67s
+2026-03-04 20:11:02,193 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:11:05,814 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:11:05,816 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 14.02s
+2026-03-04 20:11:05,817 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:11:11,501 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:11:11,503 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.hindustantimes.com/ - Risk: MEDIUM, Data points: 2, Duration: 10.56s
+2026-03-04 20:11:11,503 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:07,483 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-04 20:15:08,768 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:08,771 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:08,775 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:08,777 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:08,779 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:15,569 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:15,570 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: MEDIUM, Data points: 2, Duration: 8.09s
+2026-03-04 20:15:15,570 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:15,574 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:16,641 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:16,642 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 7.86s
+2026-03-04 20:15:16,642 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:16,645 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:16,657 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:16,657 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:16,657 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:16,658 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 7.88s
+2026-03-04 20:15:16,658 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 7.89s
+2026-03-04 20:15:16,658 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 7.89s
+2026-03-04 20:15:16,658 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:16,658 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:16,658 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:16,663 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:16,664 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:16,668 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:21,081 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:21,082 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 12.31s
+2026-03-04 20:15:21,083 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:21,090 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:23,749 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:23,750 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 8.18s
+2026-03-04 20:15:23,750 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:23,757 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:24,404 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:24,404 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 7.74s
+2026-03-04 20:15:24,404 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:24,404 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:24,404 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:24,405 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 7.74s
+2026-03-04 20:15:24,405 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 7.74s
+2026-03-04 20:15:24,405 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:24,406 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:24,408 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:24,412 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:24,415 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:26,648 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:26,649 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 10.00s
+2026-03-04 20:15:26,649 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:26,651 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:27,632 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:27,633 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 6.54s
+2026-03-04 20:15:27,634 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:27,643 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:30,393 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:30,394 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 6.64s
+2026-03-04 20:15:30,395 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:30,401 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:31,567 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:31,571 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 7.16s
+2026-03-04 20:15:31,571 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:31,571 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:31,572 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 7.16s
+2026-03-04 20:15:31,573 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:31,577 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:31,580 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:32,208 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:32,209 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 7.80s
+2026-03-04 20:15:32,210 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:32,218 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-04 20:15:33,263 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:33,263 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 6.61s
+2026-03-04 20:15:33,263 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:33,266 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:34,216 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:34,216 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 6.57s
+2026-03-04 20:15:34,216 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:34,219 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:37,780 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:37,781 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 7.38s
+2026-03-04 20:15:37,781 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:37,787 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:38,539 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:38,539 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 6.96s
+2026-03-04 20:15:38,540 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:38,542 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:38,976 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:38,977 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 6.76s
+2026-03-04 20:15:38,977 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:38,982 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:39,819 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:39,819 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 6.55s
+2026-03-04 20:15:39,820 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:39,823 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:40,795 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:40,801 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 5, Duration: 6.58s
+2026-03-04 20:15:40,802 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:40,807 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:15:43,314 - privacy_analyzer - ERROR - analyze:178 - Failed to save analysis to database: database is locked
+2026-03-04 20:15:43,315 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 5, Duration: 11.74s
+2026-03-04 20:15:43,315 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-04 20:15:43,321 - privacy_analyzer - INFO - analyze:92 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-04 20:33:13,995 - privacy_analyzer - WARNING - <module>:137 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 20:33:14,013 - privacy_analyzer - INFO - <module>:170 - RAG analyzer not available - missing dependencies
+2026-03-04 20:33:15,591 - privacy_analyzer - WARNING - <module>:137 - RAG components not available: No module named 'sentence_transformers'
+2026-03-04 20:33:15,595 - privacy_analyzer - INFO - <module>:170 - RAG analyzer not available - missing dependencies
+2026-03-10 22:36:55,730 - privacy_analyzer - INFO - <module>:168 - RAG analyzer disabled by configuration
+2026-03-10 22:37:17,036 - privacy_analyzer - INFO - <module>:168 - RAG analyzer disabled by configuration
+2026-03-11 15:32:25,672 - privacy_analyzer - INFO - <module>:168 - RAG analyzer disabled by configuration
+2026-03-11 15:32:39,305 - privacy_analyzer - INFO - <module>:168 - RAG analyzer disabled by configuration
+2026-03-11 15:32:53,102 - privacy_analyzer - INFO - <module>:168 - RAG analyzer disabled by configuration
+2026-03-11 15:33:44,254 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://policies.google.com/privacy?hl=en-IN&fg=1
+2026-03-11 15:33:44,733 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-11 15:33:44,941 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-11 15:33:44,973 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-11 15:33:48,874 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://in.linkedin.com/legal/privacy
+2026-03-11 15:33:52,397 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:33:52,399 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://policies.google.com/privacy?hl=en-IN&fg=1 - Risk: HIGH, Data points: 14, Duration: 8.14s
+2026-03-11 15:33:52,401 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:33:57,167 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:33:57,168 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: LOW, Data points: 2, Duration: 12.20s
+2026-03-11 15:33:57,169 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:33:57,214 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:33:57,215 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://in.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 8.34s
+2026-03-11 15:33:57,215 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:33:57,264 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:33:57,265 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: LOW, Data points: 2, Duration: 12.32s
+2026-03-11 15:33:57,265 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:33:57,865 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:33:57,867 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: LOW, Data points: 2, Duration: 13.13s
+2026-03-11 15:33:57,868 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:02,031 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:02,036 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:02,044 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:02,051 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:02,055 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:02,767 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:13,488 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:13,489 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:13,489 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:13,489 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.45s
+2026-03-11 15:34:13,490 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.44s
+2026-03-11 15:34:13,490 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.46s
+2026-03-11 15:34:13,491 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:13,491 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:13,492 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:13,501 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:13,507 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:13,512 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:13,522 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:13,523 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.48s
+2026-03-11 15:34:13,524 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:13,525 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:13,525 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.47s
+2026-03-11 15:34:13,528 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:13,533 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:13,537 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:19,033 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:19,033 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 16.27s
+2026-03-11 15:34:19,034 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:19,042 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:24,146 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:24,147 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.65s
+2026-03-11 15:34:24,148 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:24,157 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:24,248 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:24,248 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:24,249 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:24,249 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.72s
+2026-03-11 15:34:24,250 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.71s
+2026-03-11 15:34:24,251 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.74s
+2026-03-11 15:34:24,251 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:24,252 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:24,253 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:24,265 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:24,274 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:24,283 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:24,571 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:24,572 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 11.06s
+2026-03-11 15:34:24,573 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:24,581 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:30,165 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:30,166 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.12s
+2026-03-11 15:34:30,167 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:30,181 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:35,549 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:35,549 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:35,550 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:35,550 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:35,550 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.29s
+2026-03-11 15:34:35,551 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.27s
+2026-03-11 15:34:35,552 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.97s
+2026-03-11 15:34:35,552 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.40s
+2026-03-11 15:34:35,553 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:35,554 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:35,555 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:35,555 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:35,569 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:35,574 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:35,586 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:35,591 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:35,701 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:35,703 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.43s
+2026-03-11 15:34:35,704 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:35,713 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:41,353 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:41,354 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.17s
+2026-03-11 15:34:41,355 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:41,364 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:46,219 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:46,219 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.63s
+2026-03-11 15:34:46,220 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:46,228 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:46,267 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:46,268 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.70s
+2026-03-11 15:34:46,269 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:46,278 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:46,284 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:46,285 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:46,286 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.57s
+2026-03-11 15:34:46,287 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.70s
+2026-03-11 15:34:46,287 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:46,288 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:46,296 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:46,302 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:46,939 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:46,940 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 11.37s
+2026-03-11 15:34:46,941 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:46,950 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:52,596 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:52,597 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 11.23s
+2026-03-11 15:34:52,597 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:52,606 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:34:56,783 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:56,784 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.56s
+2026-03-11 15:34:56,785 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:56,800 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:56,831 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:56,831 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:56,833 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.53s
+2026-03-11 15:34:56,833 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.56s
+2026-03-11 15:34:56,834 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:56,835 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:56,847 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:56,854 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:56,877 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:56,878 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.58s
+2026-03-11 15:34:56,879 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:56,888 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:34:58,216 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:34:58,218 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 11.27s
+2026-03-11 15:34:58,218 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:34:58,228 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:03,857 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:03,858 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 11.25s
+2026-03-11 15:35:03,859 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:03,869 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:07,051 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:07,052 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.16s
+2026-03-11 15:35:07,052 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:07,062 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:07,312 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:07,313 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:07,313 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.46s
+2026-03-11 15:35:07,314 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.47s
+2026-03-11 15:35:07,315 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:07,316 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:07,334 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:35:07,337 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:35:07,943 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:07,944 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 9.72s
+2026-03-11 15:35:07,944 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:07,953 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:09,462 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:09,463 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 12.66s
+2026-03-11 15:35:09,463 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:09,471 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:15,107 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:15,108 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.24s
+2026-03-11 15:35:15,109 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:15,118 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:17,082 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:17,084 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.02s
+2026-03-11 15:35:17,085 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:17,098 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:17,337 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:17,338 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:17,339 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.00s
+2026-03-11 15:35:17,339 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.00s
+2026-03-11 15:35:17,340 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:17,341 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:17,352 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:17,357 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy/index.html
+2026-03-11 15:35:18,712 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:18,713 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 9.24s
+2026-03-11 15:35:18,714 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:18,722 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:20,663 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:20,664 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 12.71s
+2026-03-11 15:35:20,665 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:20,673 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:26,261 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:26,262 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 11.14s
+2026-03-11 15:35:26,263 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:26,275 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:26,872 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:26,873 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 9.78s
+2026-03-11 15:35:26,875 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:26,886 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:27,635 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:27,635 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:27,635 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 10.28s
+2026-03-11 15:35:27,636 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 8.91s
+2026-03-11 15:35:27,637 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:27,637 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:27,646 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:35:27,650 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:35:28,080 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:28,098 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.43s
+2026-03-11 15:35:28,104 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:28,113 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:35:31,790 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:31,793 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy/index.html - Risk: HIGH, Data points: 14, Duration: 14.44s
+2026-03-11 15:35:31,794 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:31,805 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.crunchyroll.com/privacy
+2026-03-11 15:35:33,621 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:33,622 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.35s
+2026-03-11 15:35:33,623 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:33,632 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:34,534 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:34,535 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.65s
+2026-03-11 15:35:34,535 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:34,543 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:37,136 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:37,138 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 9.49s
+2026-03-11 15:35:37,138 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:37,148 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:37,287 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:37,289 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 9.64s
+2026-03-11 15:35:37,289 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:37,299 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:37,456 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:37,459 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 9.35s
+2026-03-11 15:35:37,459 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:37,467 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:40,440 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:40,441 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.crunchyroll.com/privacy - Risk: HIGH, Data points: 14, Duration: 8.64s
+2026-03-11 15:35:40,441 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:40,449 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:41,727 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:41,731 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.19s
+2026-03-11 15:35:41,732 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:41,744 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.linkedin.com/legal/privacy
+2026-03-11 15:35:42,817 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:42,818 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 9.19s
+2026-03-11 15:35:42,819 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:42,830 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:44,724 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:44,726 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.58s
+2026-03-11 15:35:44,728 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:44,738 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:45,053 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:45,054 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.59s
+2026-03-11 15:35:45,055 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:45,063 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:47,739 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:47,740 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.29s
+2026-03-11 15:35:47,741 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:47,752 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:48,282 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:48,284 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 10.98s
+2026-03-11 15:35:48,284 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:48,294 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:49,025 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:49,028 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.linkedin.com/legal/privacy - Risk: LOW, Data points: 0, Duration: 7.28s
+2026-03-11 15:35:49,029 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:49,036 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:52,161 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:52,162 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.42s
+2026-03-11 15:35:52,163 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:52,178 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:52,477 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:52,479 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.42s
+2026-03-11 15:35:52,480 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:52,496 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:53,811 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:53,812 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 10.98s
+2026-03-11 15:35:53,813 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:53,822 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:55,314 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:55,316 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.56s
+2026-03-11 15:35:55,318 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:55,369 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:55,869 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:55,869 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.58s
+2026-03-11 15:35:55,871 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:55,879 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:59,414 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:59,415 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 10.38s
+2026-03-11 15:35:59,415 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:59,424 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.vogue.in/legal/content/privacy-policy
+2026-03-11 15:35:59,621 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:35:59,622 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.44s
+2026-03-11 15:35:59,622 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:35:59,630 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://harborhouse.ie/privacy
+2026-03-11 15:36:01,011 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:36:01,012 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.19s
+2026-03-11 15:36:01,013 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:36:01,023 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://harborhouse.ie/
+2026-03-11 15:36:02,768 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:36:02,770 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.40s
+2026-03-11 15:36:02,771 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:36:03,214 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:36:03,214 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.34s
+2026-03-11 15:36:03,215 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:36:05,003 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:36:05,004 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 12.51s
+2026-03-11 15:36:05,005 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:36:06,849 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:36:06,850 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.vogue.in/legal/content/privacy-policy - Risk: HIGH, Data points: 14, Duration: 7.43s
+2026-03-11 15:36:06,850 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:36:07,397 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:36:07,398 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://harborhouse.ie/privacy - Risk: LOW, Data points: 0, Duration: 7.77s
+2026-03-11 15:36:07,400 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:36:10,606 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:36:10,608 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://harborhouse.ie/ - Risk: LOW, Data points: 1, Duration: 9.59s
+2026-03-11 15:36:10,609 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:37:24,406 - privacy_analyzer - INFO - <module>:168 - RAG analyzer disabled by configuration
+2026-03-11 15:41:12,522 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-11 15:41:15,812 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.hydraflix.cc/privacy
+2026-03-11 15:41:20,413 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.hydraflix.cc/
+2026-03-11 15:41:22,970 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:41:22,971 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: LOW, Data points: 2, Duration: 10.45s
+2026-03-11 15:41:22,972 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:41:23,720 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:41:23,724 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.hydraflix.cc/privacy - Risk: LOW, Data points: 0, Duration: 7.91s
+2026-03-11 15:41:23,725 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:41:28,705 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:41:28,706 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.hydraflix.cc/ - Risk: LOW, Data points: 2, Duration: 8.29s
+2026-03-11 15:41:28,707 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:42:49,565 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-11 15:42:49,569 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-11 15:42:50,090 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.google.com/privacy
+2026-03-11 15:42:51,309 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.facebook.com/privacy/genai/
+2026-03-11 15:42:51,320 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.facebook.com/privacy/genai/
+2026-03-11 15:42:53,761 - privacy_analyzer - INFO - analyze:297 - Analysis saved to database for https://www.facebook.com/privacy/genai/
+2026-03-11 15:42:53,763 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy/genai/ - Risk: LOW, Data points: 0, Duration: 2.44s
+2026-03-11 15:42:53,765 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:42:53,794 - privacy_analyzer - INFO - analyze:297 - Analysis saved to database for https://www.facebook.com/privacy/genai/
+2026-03-11 15:42:53,795 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy/genai/ - Risk: LOW, Data points: 0, Duration: 2.49s
+2026-03-11 15:42:53,795 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:42:54,497 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://business.facebook.com/privacy
+2026-03-11 15:42:55,976 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://business.facebook.com/privacy
+2026-03-11 15:42:55,979 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.facebook.com/privacy/explanation
+2026-03-11 15:43:01,450 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:01,451 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: LOW, Data points: 2, Duration: 11.88s
+2026-03-11 15:43:01,452 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:01,462 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://business.facebook.com/privacy
+2026-03-11 15:43:01,474 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:01,475 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: LOW, Data points: 2, Duration: 11.91s
+2026-03-11 15:43:01,476 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:01,487 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.facebook.com/privacy/explanation
+2026-03-11 15:43:01,550 - privacy_analyzer - INFO - analyze:297 - Analysis saved to database for https://business.facebook.com/privacy
+2026-03-11 15:43:01,551 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://business.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 7.05s
+2026-03-11 15:43:01,552 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:01,562 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.facebook.com/privacy/explanation
+2026-03-11 15:43:03,421 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:03,422 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy/explanation - Risk: LOW, Data points: 0, Duration: 7.44s
+2026-03-11 15:43:03,422 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:03,437 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:03,437 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://business.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 7.46s
+2026-03-11 15:43:03,438 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:07,098 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:07,099 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.google.com/privacy - Risk: LOW, Data points: 2, Duration: 17.01s
+2026-03-11 15:43:07,100 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:07,170 - privacy_analyzer - INFO - analyze:297 - Analysis saved to database for https://www.facebook.com/privacy/explanation
+2026-03-11 15:43:07,171 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy/explanation - Risk: LOW, Data points: 0, Duration: 5.61s
+2026-03-11 15:43:07,172 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:07,205 - privacy_analyzer - INFO - analyze:297 - Analysis saved to database for https://business.facebook.com/privacy
+2026-03-11 15:43:07,206 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://business.facebook.com/privacy - Risk: LOW, Data points: 0, Duration: 5.74s
+2026-03-11 15:43:07,207 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:07,330 - privacy_analyzer - INFO - analyze:297 - Analysis saved to database for https://www.facebook.com/privacy/explanation
+2026-03-11 15:43:07,331 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.facebook.com/privacy/explanation - Risk: LOW, Data points: 0, Duration: 5.84s
+2026-03-11 15:43:07,331 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:33,471 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-11 15:43:33,629 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-11 15:43:33,717 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-11 15:43:33,719 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-11 15:43:35,078 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/t/privacy
+2026-03-11 15:43:35,155 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/t/privacy
+2026-03-11 15:43:44,264 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:44,264 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.79s
+2026-03-11 15:43:44,265 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:44,273 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/t/privacy
+2026-03-11 15:43:44,653 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:44,655 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 14, Duration: 10.94s
+2026-03-11 15:43:44,656 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:44,664 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/t/privacy
+2026-03-11 15:43:44,871 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:44,872 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 14, Duration: 11.15s
+2026-03-11 15:43:44,873 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:44,882 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.youtube.com/privacy
+2026-03-11 15:43:45,767 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:45,768 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/t/privacy - Risk: HIGH, Data points: 14, Duration: 10.69s
+2026-03-11 15:43:45,771 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:45,961 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:45,962 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/t/privacy - Risk: HIGH, Data points: 14, Duration: 10.81s
+2026-03-11 15:43:45,962 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:49,844 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:49,845 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 14, Duration: 16.22s
+2026-03-11 15:43:49,846 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:54,387 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:54,388 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/t/privacy - Risk: HIGH, Data points: 14, Duration: 9.72s
+2026-03-11 15:43:54,389 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:54,595 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:54,596 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/privacy - Risk: HIGH, Data points: 14, Duration: 9.71s
+2026-03-11 15:43:54,597 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:43:55,384 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:43:55,385 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.youtube.com/t/privacy - Risk: HIGH, Data points: 14, Duration: 11.11s
+2026-03-11 15:43:55,385 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:00,634 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/policies/privacy-policy
+2026-03-11 15:44:01,857 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/privacy
+2026-03-11 15:44:02,313 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/privacy
+2026-03-11 15:44:02,320 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/privacy
+2026-03-11 15:44:02,329 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/privacy
+2026-03-11 15:44:02,333 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/privacy
+2026-03-11 15:44:08,223 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:08,224 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/policies/privacy-policy - Risk: HIGH, Data points: 10, Duration: 7.59s
+2026-03-11 15:44:08,225 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:08,233 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/policies/privacy-policy
+2026-03-11 15:44:14,087 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:14,087 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/privacy - Risk: MEDIUM, Data points: 4, Duration: 12.23s
+2026-03-11 15:44:14,088 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:14,097 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/policies/privacy-policy
+2026-03-11 15:44:14,884 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:14,885 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/privacy - Risk: MEDIUM, Data points: 4, Duration: 12.57s
+2026-03-11 15:44:14,886 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:14,898 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/policies/privacy-policy
+2026-03-11 15:44:15,084 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:15,084 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:15,085 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/privacy - Risk: MEDIUM, Data points: 4, Duration: 12.77s
+2026-03-11 15:44:15,086 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/privacy - Risk: MEDIUM, Data points: 4, Duration: 12.75s
+2026-03-11 15:44:15,087 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:15,088 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:15,101 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/policies/privacy-policy
+2026-03-11 15:44:15,107 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/policies/privacy-policy
+2026-03-11 15:44:16,214 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:16,214 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/policies/privacy-policy - Risk: HIGH, Data points: 10, Duration: 7.98s
+2026-03-11 15:44:16,215 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:16,229 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: https://www.reddit.com/privacy
+2026-03-11 15:44:19,621 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:19,622 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/privacy - Risk: MEDIUM, Data points: 4, Duration: 17.29s
+2026-03-11 15:44:19,622 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:22,352 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:22,353 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/policies/privacy-policy - Risk: HIGH, Data points: 10, Duration: 8.26s
+2026-03-11 15:44:22,354 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:23,110 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:23,111 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/policies/privacy-policy - Risk: HIGH, Data points: 10, Duration: 8.21s
+2026-03-11 15:44:23,111 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:23,643 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:23,643 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/policies/privacy-policy - Risk: HIGH, Data points: 10, Duration: 8.54s
+2026-03-11 15:44:23,644 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:25,145 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:25,146 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/policies/privacy-policy - Risk: HIGH, Data points: 10, Duration: 10.05s
+2026-03-11 15:44:25,147 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 15:44:30,688 - privacy_analyzer - ERROR - analyze:299 - Failed to save analysis to database: database is locked
+2026-03-11 15:44:30,690 - privacy_analyzer - INFO - log_analysis:76 - Analysis basic completed for https://www.reddit.com/privacy - Risk: MEDIUM, Data points: 4, Duration: 14.46s
+2026-03-11 15:44:30,690 - privacy_analyzer - INFO - log_api_request:67 - API POST /api/analyze - Status: 200
+2026-03-11 17:13:30,410 - privacy_analyzer - INFO - analyze:213 - Starting analysis for URL: chrome://newtab/
+2026-03-11 17:13:30,412 - privacy_analyzer - ERROR - log_analysis:74 - Analysis basic failed for chrome://newtab/ - Error: Failed to extract text from privacy policy

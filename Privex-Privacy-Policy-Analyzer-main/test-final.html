@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Site - Privacy Policy Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .cookie-banner {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .privacy-policy {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        button {
+            background: #007cba;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .instructions {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>🧪 Extension Test Instructions</h2>
+        <ol>
+            <li><strong>Install Extension:</strong> Chrome Extensions → Load unpacked → Select extension folder</li>
+            <li><strong>Test Real Website:</strong> Visit <a href="https://google.com" target="_blank">google.com</a> (real domain)</li>
+            <li><strong>Check Extension:</strong> Click extension icon → Should show analysis</li>
+            <li><strong>Test Statistics:</strong> Click Statistics tab → Should show data</li>
+            <li><strong>Manual Test:</strong> Click "Analyze Current Site" button</li>
+        </ol>
+    </div>
+
+    <div class="cookie-banner">
+        <h3>🍪 Cookie Notice</h3>
+        <p>We use cookies to enhance your experience. By continuing, you agree to our use of cookies.</p>
+        <button onclick="this.parentElement.style.display='none'">Accept Cookies</button>
+        <button onclick="this.parentElement.style.display='none'">Decline</button>
+    </div>
+
+    <div class="privacy-policy">
+        <h3>📄 Privacy Policy</h3>
+        <p><strong>Data Collection:</strong> We collect email addresses, names, browsing behavior, and device information.</p>
+        <p><strong>Third Parties:</strong> We share data with Google Analytics, Facebook Ads, and Amazon AWS.</p>
+        <p><strong>Purposes:</strong> Data is used for advertising, analytics, and service improvement.</p>
+    </div>
+
+    <script>
+        console.log('Test page loaded - Extension should detect cookie banner');
+        
+        // Add dynamic content after 2 seconds
+        setTimeout(() => {
+            const banner = document.createElement('div');
+            banner.innerHTML = `
+                <div style="position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: white; padding: 10px; text-align: center;">
+                    Dynamic cookie banner appeared!
+                    <button onclick="this.parentElement.parentElement.remove()">OK</button>
+                </div>
+            `;
+            document.body.appendChild(banner);
+            console.log('Dynamic cookie banner added');
+        }, 2000);
+    </script>
+</body>
+</html>

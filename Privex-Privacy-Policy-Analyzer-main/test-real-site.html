@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Website Test - Privacy Policy Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f8f9fa;
+        }
+        .cookie-banner {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .privacy-policy {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        button {
+            background: #007cba;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #005a8b;
+        }
+        .instructions {
+            background: #e7f3ff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🌐 Real Website Test for Privacy Policy Analyzer</h1>
+    
+    <div class="instructions">
+        <h2>📋 Testing Instructions</h2>
+        <ol>
+            <li><strong>Install Extension:</strong> Chrome Extensions → Load unpacked → Select 'extension' folder</li>
+            <li><strong>Visit this page:</strong> Extension should automatically detect cookie banner below</li>
+            <li><strong>Check popup:</strong> Click extension icon → Should show analysis results</li>
+            <li><strong>Manual test:</strong> Click "Analyze Current Site" button</li>
+            <li><strong>Check tabs:</strong> Statistics and History should show data</li>
+        </ol>
+    </div>
+
+    <div class="cookie-banner">
+        <h3>🍪 Cookie Consent Notice</h3>
+        <p>We use cookies and similar technologies to help personalize content, tailor and measure ads, and provide a better experience. By clicking accept, you agree to our use of cookies and other tracking technologies.</p>
+        <button onclick="this.parentElement.style.display='none'">Accept All Cookies</button>
+        <button onclick="this.parentElement.style.display='none'">Reject All</button>
+        <button onclick="this.parentElement.style.display='none'">Cookie Settings</button>
+    </div>
+
+    <div class="privacy-policy">
+        <h3>📄 Privacy Policy</h3>
+        <p><strong>Data Collection:</strong> We collect personal information including your name, email address, phone number, location data, browsing behavior, and device information.</p>
+        <p><strong>Third Party Sharing:</strong> We share your personal information with Google Analytics, Facebook Advertising, Amazon Web Services, and Microsoft Azure for analytics, advertising, and cloud services.</p>
+        <p><strong>Data Usage:</strong> Your data is used for personalized advertising, analytics, service improvement, marketing communications, and product development.</p>
+        <p><strong>Data Retention:</strong> We retain your personal data for as long as necessary to fulfill the purposes outlined in this policy, typically up to 24 months.</p>
+        <p><strong>User Rights:</strong> You have the right to access, modify, delete, and export your personal data at any time through your account settings.</p>
+    </div>
+
+    <div class="instructions">
+        <h2>🎯 Expected Extension Behavior</h2>
+        <ul>
+            <li>✅ <strong>Automatic Detection:</strong> Extension should detect cookie banner within 1-3 seconds</li>
+            <li>✅ <strong>Background Analysis:</strong> Extension should automatically find and analyze privacy policy</li>
+            <li>✅ <strong>Popup Updates:</strong> Extension badge should change when analysis is complete</li>
+            <li>✅ <strong>Manual Trigger:</strong> "Analyze Current Site" button should work in popup</li>
+            <li>✅ <strong>Results Display:</strong> Should show extracted data, risk level, and third parties</li>
+            <li>✅ <strong>Tab Switching:</strong> Statistics and History tabs should work</li>
+        </ul>
+    </div>
+
+    <script>
+        console.log('Real website test page loaded - Extension should be monitoring this page');
+        
+        // Add some dynamic content that extensions often look for
+        setTimeout(() => {
+            const dynamicBanner = document.createElement('div');
+            dynamicBanner.className = 'cookie-consent-overlay';
+            dynamicBanner.innerHTML = `
+                <div style="position: fixed; bottom: 0; left: 0; right: 0; background: #333; color: white; padding: 10px; text-align: center; z-index: 9999;">
+                    <p>Dynamic cookie banner appeared after 2 seconds!</p>
+                    <button onclick="this.parentElement.parentElement.remove()">I Accept</button>
+                </div>
+            `;
+            document.body.appendChild(dynamicBanner);
+            console.log('Dynamic cookie banner added - Extension should detect this');
+        }, 2000);
+    </script>
+</body>
+</html>

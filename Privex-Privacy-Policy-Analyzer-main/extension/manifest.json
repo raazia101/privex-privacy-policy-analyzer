@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Policy Analyzer",
+  "version": "2.0",
+  "description": "Analyzes privacy policies with RAG enhancement and shows data usage summary.",
+  "permissions": ["activeTab", "scripting", "storage", "tabs", "webNavigation"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "action": {
+    "default_popup": "popup-working.html",
+    "default_title": "Privacy Policy Analyzer",
+    "default_icon": {
+      "16": "icon.svg",
+      "48": "icon.svg",
+      "128": "icon.svg"
+    }
+  },
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["graph.html", "vis-network.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
